@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.square-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.square-group-second {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.side {
+  padding: 25px;
+}
+
+.square-group-second .square {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.square-group-second .red {
+  background-color: red;
+}
+
+.square-group-second .purple {
+  background-color: purple;
+}
+
+.square-group-second .blue {
+  background-color: blue;
+}
+
+.square-group-second .square {
+  height: 200px;
+}
+
+.square-group-second .square button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: white;
+  background-color: black;
+}
