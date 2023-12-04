@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins";
 }
 
 li {list-style-type: none;}
@@ -128,6 +129,10 @@ section .contents .content-item img {
 .service .section-title {
   text-align: center;
   padding: 45px 0 70px 0;
+}
+
+.service .section-title h1 {
+  font-size: 32px;
 }
 
 /* service-end */
