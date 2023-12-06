@@ -110,7 +110,6 @@
     display: flex;
     gap: 24px;
   }
-
 }
 
 /* ---------------------------- */
@@ -138,12 +137,12 @@
 
   .navbar .navbar-nav ul li {
     display: inline-block;
-    margin: 7px;
+    margin: 6px;
     font-size: 12px;
   }
 
   .navbar .navbar-logo {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   /* ----------- */
@@ -246,14 +245,12 @@
   /* collectionSection */
   /* ----------------- */
 
-
   main .collection {
     display: flex;
     padding: 0 0 100px 0;
     flex-direction: row;
     flex-wrap: wrap;
   }
-
 
   main .collection .middle {
     text-align: center;
@@ -270,7 +267,7 @@
     margin: 20px 0;
   }
 
-    main .collection aside img {
+  main .collection aside img {
     width: 360px;
     height: 360px;
   }
@@ -293,7 +290,7 @@
     margin-top: -40px;
   }
 
-  .footer-wrapper .section-title { 
+  .footer-wrapper .section-title {
     font-size: 18px;
     font-weight: bold;
     margin-top: 1px;
@@ -304,7 +301,8 @@
     font-size: 14px;
   }
 
-  .footer-wrapper ul li, p {
+  .footer-wrapper ul li,
+  p {
     font-size: 12px;
   }
 
@@ -313,5 +311,4 @@
     gap: 24px;
     margin-left: -110px;
   }
-
 }
